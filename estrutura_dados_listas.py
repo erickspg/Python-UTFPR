@@ -1,15 +1,13 @@
 #listas - inserção ordenada por padrao, permite mutablidade e valores duplicados
-
-lista_numerica = [1, 2, 3, 4, 5, 6, 7, 8]
+#declaracao
+lista_numerica = list((1, 2, 3, 4, 5, 6, 7, 8))
 lista_string = ['Charqueadas', 'Imbituba', 'Porto Alegre', 'Floripa']
-lista_instancia = list([1, 'Erick', '4', 6])
 cidade = 'Imbituba1'
 
 print(lista_string[1])
-#print(lista_instancia)
 
 #tipo lista
-print(type(lista_instancia))
+print(type(lista_numerica))
 
 #tamanho lista
 print(len(lista_string))

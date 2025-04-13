@@ -1,6 +1,7 @@
 #tupla - semelhante a uma lista constante, pois é imutavel, tbm permite itens duplicados e nao permite insercao ou remocao
+#declaracao
 minha_tupla = (1 , 2, 3, 'Erick', 'Imbituba', 4, 'Charqueadas')
-minha_tupla2 = ('Marcia', 5)
+minha_tupla2 = tuple(('Marcia', 5))
 
 #erro:
 #minha_tupla[0] = 50
