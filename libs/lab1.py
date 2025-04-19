@@ -1,3 +1,4 @@
+#lib para criar gráficos e visualizar dados
 import matplotlib.pyplot as plt
 import numpy as np
 
