@@ -1,0 +1,2 @@
+Criando um novo conteudo para o arquivo
+Esse é um exemplo de manipulação de arquivos.
