@@ -26,6 +26,7 @@ alturas = np.array([1.88, 1.95, 1.64, 1.65, 1.72])
 novaAlturas = alturas[0:2].copy()
 print(novaAlturas)
 
+#shape
 precosPorCategoria = np . array ([[10.50 , 9.54 , 1.08 , 7.98] , [3.69 , 5.49 , 6.39 , 4.20]])
 print(precosPorCategoria.shape)
 
@@ -36,4 +37,4 @@ print(matriz)
 
 #IMPORTANTE: Se nao usar o copy ele tratara atribuicoes de arrays sempre como visao
 # de forma que alterar o array 'copiado'ira alterar tambem o original
-# Para nao alterar o array original é necessário usar o COPY
+# Para nao alterar o array original é necessário usar o
